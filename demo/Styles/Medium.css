@@ -1,0 +1,6 @@
+#box1 {
+    position: fixed;
+    height: 20px;
+    width: 20px;
+    background: red;
+}

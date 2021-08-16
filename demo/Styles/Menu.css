@@ -1,0 +1,20 @@
+.menu{
+    position: fixed;
+    top:20px;
+    left:50%;
+    margin-left: -150px;
+    z-index: 2;
+    background: lightgrey;
+    padding: 4px;
+    width: 300px;
+    overflow: hidden;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.menu a{
+    display: table;
+    margin: 0 auto;
+    color: #29264E !important;
+    text-decoration: none !important;
+    font-family: 'Gochi Hand';
+}

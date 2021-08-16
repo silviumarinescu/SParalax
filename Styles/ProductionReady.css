@@ -1,0 +1,90 @@
+.snow {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    z-index: 1;
+}
+.MainImageHolder {
+    position: fixed;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+}
+
+#MainImage3 {
+    right: -100%;
+    left: auto;
+}
+
+#MainImage4 {
+    bottom: -100%;
+    top: auto;
+}
+
+.bauble {
+    position: fixed;
+    top: 100%;
+    margin-top: -100px;
+    right: 0;
+    z-index: 1;
+    webkit-border-radius: 302px;
+    background: #64BD4F;
+    color: #29264E;
+    opacity: 0.7;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    display: table;
+    font-family: 'Gochi Hand';
+    font-size: 20px;
+}
+
+.bauble > span {
+    display: table-cell;
+    vertical-align: middle;
+}
+.navmenu {
+    position: fixed;
+    top: 50%;
+    margin-top: -170px;
+    height: 340px;
+    overflow: hidden;
+    right: 0;
+    background: lightslategray;
+    z-index: 9;
+    width: 68px;
+}
+.navmenu div div{
+    cursor: pointer;
+    margin:3px;
+    transition: all 0.3s linear;
+    overflow: hidden;
+    width: 64px;
+    height: 64px;
+}
+.navmenu div.selected{
+    background-color: deepskyblue;
+    transition: all 0.3s linear;
+}
+.navmenu div div:hover{
+    transform: rotate(360deg);
+}
+
+.snowBig{
+    width: 128px;
+    height: 128px;
+    overflow: hidden;
+}
+.snowMedium{
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+}
+.snowSmall{
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
