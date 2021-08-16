@@ -1,6 +1,6 @@
 /*!
  * SParallax v1.0.0
- * http://sparallax.azurewebsites.net
+ * https://sparallax.azurewebsites.net
  *
  * Date: 2014-12-28T01:10Z
  */
